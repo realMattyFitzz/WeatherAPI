@@ -1,0 +1,31 @@
+body {
+    background: black;
+}
+h1 {
+    color: white;
+    padding-left: 10%;
+    margin-top: 2.5%;
+}
+h2 {
+    color: white;
+}
+h5 {
+    color: white;
+}
+#dataset {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+.card-body {
+    background-color: black;
+}
+.card-title {
+    color: white;
+}
+i {
+    color: skyblue;
+}
+

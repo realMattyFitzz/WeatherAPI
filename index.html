@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/5b8ca097d5.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header">Weather <i class="fas fa-cloud-sun"></i> Dashboard</h1>
+    </header>
+    <div class="container">
+        <h5>Search for a City:</h5>
+        <form class="form-inline">
+            <div class="form-group mb-2">
+                <input type="text" class="form-control" placeholder="Search..." id="city-input">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2" id="search-btn"><i class="fas fa-search"></i></button>
+        </form>
+        <ul class="list-group" id="city-list">
+    </div>
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-3">
+
+                <div class="left-panel">
+                    <!-- Search Bar -->
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mb-5 main">
+                    <!-- Main Weather Display -->
+                    <div class="weather m-3" id="dataset">
+                        <h6 id="city-name"></h6>
+                        <h6 id="main-temp"></h6>
+                        <h6 id="main-hum"></h6>
+                        <h6 id="main-wind"></h6>
+                        <h6 id="main-uv">UV Index: <span id="uv"></span></h6>
+                    </div>
+                </div>
+                <h2>Forecast<i class="fas fa-cloud-sun"></i></h2>
+                <div class="row" id="forecast">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
